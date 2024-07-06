@@ -19,8 +19,7 @@ const Home: FC = memo(() => {
   const {title, description} = homePageMeta;
   return (
     <Page description={description} title={title}>
-      <Header />
-      
+      <Header />      
       <Hero />
       <About />
       <Resume />
